@@ -1,0 +1,5 @@
+services:
+  - docker
+script:
+  - docker image build -t myahya95/imagetest .
+  - docker container run myahya95/imagetest
